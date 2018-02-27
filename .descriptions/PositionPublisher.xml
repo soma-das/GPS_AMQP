@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="Position Publisher" 
+    author="Linda Ariani Gunawan" 
+    provider="Bitreactive AS" 
+    uuid="_15_igwzQEeeOGZOZnSWGaA" 
+    status="under construction" 
+    type="system" 
+    >
+    <required>
+        <resource path="config/position.properties"/>
+        <package name="com.bitreactive.examples.amqp.gpssensorsimulator"/>
+        <package name="com.bitreactive.library.amqp"/>
+        <package name="com.bitreactive.library.amqp.brokeredamqpclient"/>
+        <package name="soma.test.amqp0"/>
+        <package name="soma.test.amqp0.datasimulator"/>
+        <package name="soma.test.amqp0.positionpublisher.component"/>
+        <block name="b0" uuid="_0bmKYQ5bEeeKhe1U4fUcQw"/>
+        <block name="b1" uuid="_FIKBk-j7EeSNq-4fvozafQ"/>
+        <block name="b2" uuid="_SrT4IVtUEeGtaPY7WHS-jQ"/>
+        <block name="b3" uuid="_cAiZ4aWJEeGtcaXYz8RSig"/>
+    </required>
+</block>

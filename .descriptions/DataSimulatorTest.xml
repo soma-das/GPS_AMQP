@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="Data SimulatorTest" 
+    author="Linda Ariani Gunawan" 
+    provider="Bitreactive AS" 
+    uuid="_0bmKYQ5bEeeKhe1U4fUcQw" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <resource path="files/90track.bbm"/>
+        <resource path="files/route.kml"/>
+        <package name="org.dom4j"/>
+        <package name="soma.test.amqp0.datasimulator"/>
+        <package name="soma.test.amqp0.datasimulatortest"/>
+        <block name="b0" uuid="_wf-yYN1_EeCNd5Vxw5RoDA"/>
+        <block name="b1" uuid="_vCXJcVYREd-4YqQXCGC3ew"/>
+    </required>
+</block>
